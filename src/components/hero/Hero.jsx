@@ -1,10 +1,10 @@
 import React from 'react';
-import imagehero from '../../assets/img/hero.jpg'
+import imagehero from '../../assets/img/coffee_image.png'
 
 function Hero() {
   return (
     <div style={{backgroundImage:`url(${imagehero})`}} className='w-full h-[100vh] bg-cover bg-no-repeat relative flex justify-center items-center' >
-      <div className="absolute backdrop-blur-sm top-2 px-3 lg:top-28 md:right-20 lg:backdrop-blur-0">
+      <div className="absolute backdrop-blur-sm top-2 px-3 lg:top-28 md:left-20 lg:backdrop-blur-0">
         <div className="">
             <h2 className='text-cream text-6xl my-10'>کافه خلیفه</h2>
         </div>
