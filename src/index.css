@@ -15,4 +15,5 @@
 body{
     direction: rtl;
     font-family: Tanha;
+    overflow-x: hidden;
 }
