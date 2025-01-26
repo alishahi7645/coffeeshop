@@ -7,6 +7,7 @@ import Whyus from './components/whyus/Whyus'
 import Coffeebanner from './components/coffeebaner/Coffeebanner'
 import Customer from './components/customer.jsx/Customer'
 import NewsLetter from './components/newletter/NewLetter'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Coffeebanner/>
       <Customer/>
       <NewsLetter/>
+      <Footer/>
     </div>
   )
 }
